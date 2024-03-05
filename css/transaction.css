@@ -1,0 +1,67 @@
+.transaction-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.total-container {
+    margin: 2rem;
+}
+.transaction {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    align-items: center;
+    grid-column-gap: 10px;
+    margin-bottom: 10px;
+    padding: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: white;
+}
+.tran-link{
+    text-decoration: none;
+    color: green;
+    transition: 0.3s ease;
+}
+.transaction p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.transaction h4 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.transaction h2 {
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+
+.edit,
+.delete {
+    margin-right: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.3s ease;
+}
+.edit{
+    background-color: #2980b9;
+}
+.delete{
+    background-color: red;
+}
+
+.transaction button:hover {
+    background-color: #2980b9;
+}
+
+.transaction button.delete:hover {
+    background-color: #c0392b;
+}

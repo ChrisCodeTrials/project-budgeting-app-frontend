@@ -1,0 +1,72 @@
+
+.transaction-form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+  
+
+.transaction-form-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+    width: 100%;
+}
+label{
+    margin-bottom: 5px;
+}
+form {
+    width: 100%;
+}
+label {
+    margin-bottom: 0.5rem;
+    color: #333;
+    display: block; 
+}
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%; 
+}
+
+.cancel,
+.submit {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+    width: auto; 
+  }
+.submit {
+    background-color: #4CAF50;
+}
+    
+.submit:hover {
+    background-color: #45a049;
+}
+    
+.cancel{
+    background-color: #f44336;
+    margin-top: 1rem; 
+}
+    
+
+.cancel:hover {
+    background-color: #d32f2f;
+}
+    
+
+    
